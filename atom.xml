@@ -6,7 +6,7 @@
   <link href="https://luckyzhouliang.github.io/atom.xml" rel="self"/>
   
   <link href="https://luckyzhouliang.github.io/"/>
-  <updated>2021-10-06T13:29:02.358Z</updated>
+  <updated>2021-10-21T13:11:07.532Z</updated>
   <id>https://luckyzhouliang.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://luckyzhouliang.github.io/2021/10/06/python%E7%AC%94%E8%AE%B0/"/>
     <id>https://luckyzhouliang.github.io/2021/10/06/python%E7%AC%94%E8%AE%B0/</id>
     <published>2021-10-06T13:24:13.000Z</published>
-    <updated>2021-10-06T13:29:02.358Z</updated>
+    <updated>2021-10-21T13:11:07.532Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="提取变量值"><a href="#提取变量值" class="headerlink" title="提取变量值"></a>提取变量值</h2><p>任何的序列（或者是可迭代对象）可以通过一个简单的赋值操作来分解为单独的变量。 唯一的要求就是变量的总数和结构必须与序列相吻合。<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006212842.png"></p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.css">]]></content>
+    <content type="html"><![CDATA[<h2 id="提取变量值"><a href="#提取变量值" class="headerlink" title="提取变量值"></a>提取变量值</h2><p>任何的序列（或者是可迭代对象）可以通过一个简单的赋值操作来分解为单独的变量。 唯一的要求就是变量的总数和结构必须与序列相吻合。<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006212842.png"></p><h2 id="Python-的星号表达式"><a href="#Python-的星号表达式" class="headerlink" title="Python 的星号表达式"></a>Python 的星号表达式</h2><p>*_</p><h2 id="堆数据结构heap"><a href="#堆数据结构heap" class="headerlink" title="堆数据结构heap"></a>堆数据结构heap</h2><p>堆数据结构最重要的特征是 heap[0] 永远是最小的元素。<br>用于从一个集合中获得最大或者最小的 N 个元素列表</p><h2 id="怎样在一个序列上面保持元素顺序的同时消除重复的值？"><a href="#怎样在一个序列上面保持元素顺序的同时消除重复的值？" class="headerlink" title="怎样在一个序列上面保持元素顺序的同时消除重复的值？"></a>怎样在一个序列上面保持元素顺序的同时消除重复的值？</h2><p>如果序列上的值都是 hashable 类型，那么可以很简单的利用集合或者生成器来解决这个问题。<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006225021.png" alt="hashable"><br>如果你想消除元素不可哈希（比如 dict 类型）的序列中重复元素的话，你需要将上述代码稍微改变一下<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006225055.png" alt="not hashable"></p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.css">]]></content>
     
     
       
@@ -37,96 +37,16 @@
   </entry>
   
   <entry>
-    <title>image-test</title>
-    <link href="https://luckyzhouliang.github.io/2021/10/01/image-test/"/>
-    <id>https://luckyzhouliang.github.io/2021/10/01/image-test/</id>
-    <published>2021-10-01T04:24:49.000Z</published>
-    <updated>2021-10-01T07:31:36.681Z</updated>
-    
-    <content type="html"><![CDATA[<img src="/2021/10/01/image-test/640.png" class="" title="This is an example image"><!-- ![](image-test/640.png) --><p>111</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">hello:</span> <span class="string">hexo</span></span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(sys.path())</span><br></pre></td></tr></table></figure><blockquote class="pullquote mindmap mindmap-md"><ul><li>Fengx<ul><li>任何方向<ul><li>编程语言<ul><li>Java</li></ul></li><li>SQL</li><li>Linux</li><li>Git</li></ul></li><li>技术<ul><li>Java Web</li><li>数据库</li><li>Docker</li><li>svn</li><li>消息队列(MQ)</li><li>mycat</li><li>大数据<ul><li>Hadoop</li><li>HBase</li></ul></li></ul></li><li>内功<ul><li>计算机基础<ul><li>计算机网络</li><li>计算机操作系统</li><li>编译原理</li><li>计算机组成原理</li></ul></li><li>数据结构与算法</li><li>设计模式</li><li>性能优化</li><li>架构设计</li><li>软件工程</li></ul></li><li>其他<ul><li>英语</li><li>博客</li></ul></li></ul></li></ul></blockquote><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.css">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;img src=&quot;/2021/10/01/image-test/640.png&quot; class=&quot;&quot; title=&quot;This is an example image&quot;&gt;
-&lt;!-- ![](image-test/640.png) --&gt;
-&lt;p&gt;111&lt;/p&gt;
-&lt;figure cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>third</title>
-    <link href="https://luckyzhouliang.github.io/2021/10/01/third/"/>
-    <id>https://luckyzhouliang.github.io/2021/10/01/third/</id>
-    <published>2021-10-01T04:12:37.000Z</published>
-    <updated>2021-10-01T04:17:12.789Z</updated>
-    
-    <content type="html"><![CDATA[<p>1111</p><blockquote><p>Every interaction is both precious and an opportunity to delight.</p><footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1111&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Every interaction is both precious and an opportunity to delight.&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;Seth Godin&lt;/strong&gt;&lt;cite&gt;&lt;a</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>second</title>
-    <link href="https://luckyzhouliang.github.io/2021/10/01/second/"/>
-    <id>https://luckyzhouliang.github.io/2021/10/01/second/</id>
-    <published>2021-10-01T01:38:50.000Z</published>
-    <updated>2021-10-01T01:39:52.811Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://luckyzhouliang.github.io/2021/06/05/new/"/>
-    <id>https://luckyzhouliang.github.io/2021/06/05/new/</id>
-    <published>2021-06-05T08:18:06.371Z</published>
-    <updated>2021-06-05T08:18:06.371Z</updated>
-    
-    <content type="html"><![CDATA[<p>[toc]</p><h1 id="latex-教程"><a href="#latex-教程" class="headerlink" title="latex 教程"></a>latex 教程</h1><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><p>\documentclass{ctexart}</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
-&lt;h1 id=&quot;latex-教程&quot;&gt;&lt;a href=&quot;#latex-教程&quot; class=&quot;headerlink&quot; title=&quot;latex 教程&quot;&gt;&lt;/a&gt;latex 教程&lt;/h1&gt;&lt;h2 id=&quot;基本语法&quot;&gt;&lt;a href=&quot;#基本语法&quot; class=</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://luckyzhouliang.github.io/2021/05/14/hello-world/"/>
     <id>https://luckyzhouliang.github.io/2021/05/14/hello-world/</id>
     <published>2021-05-14T15:09:07.572Z</published>
-    <updated>2021-05-29T08:33:15.009Z</updated>
+    <updated>2021-12-08T03:18:10.318Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><span id="more"></span><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><span id="more"></span><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.css">]]></content>
     
     
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <summary type="html">&lt;h2 id=&quot;Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub&quot;&gt;&lt;a href=&quot;#Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub&quot; class=&quot;headerlink&quot; title=&quot;Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.&quot;&gt;&lt;/a&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/h2&gt;&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;</summary>
     
