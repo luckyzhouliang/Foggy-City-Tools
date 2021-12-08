@@ -6,7 +6,7 @@
   <link href="https://luckyzhouliang.github.io/atom.xml" rel="self"/>
   
   <link href="https://luckyzhouliang.github.io/"/>
-  <updated>2021-12-08T03:20:37.292Z</updated>
+  <updated>2021-12-08T03:23:19.370Z</updated>
   <id>https://luckyzhouliang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://luckyzhouliang.github.io/2021/10/06/python%E7%AC%94%E8%AE%B0/"/>
     <id>https://luckyzhouliang.github.io/2021/10/06/python%E7%AC%94%E8%AE%B0/</id>
     <published>2021-10-06T13:24:13.000Z</published>
-    <updated>2021-12-08T03:20:37.292Z</updated>
+    <updated>2021-12-08T03:23:19.370Z</updated>
     
     <content type="html"><![CDATA[<h2 id="提取变量值"><a href="#提取变量值" class="headerlink" title="提取变量值"></a>提取变量值</h2><p>任何的序列（或者是可迭代对象）可以通过一个简单的赋值操作来分解为单独的变量。 唯一的要求就是变量的总数和结构必须与序列相吻合。<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006212842.png"></p><span id="more"></span><h2 id="Python-的星号表达式"><a href="#Python-的星号表达式" class="headerlink" title="Python 的星号表达式"></a>Python 的星号表达式</h2><p>*_</p><h2 id="堆数据结构heap"><a href="#堆数据结构heap" class="headerlink" title="堆数据结构heap"></a>堆数据结构heap</h2><p>堆数据结构最重要的特征是 heap[0] 永远是最小的元素。<br>用于从一个集合中获得最大或者最小的 N 个元素列表</p><h2 id="怎样在一个序列上面保持元素顺序的同时消除重复的值？"><a href="#怎样在一个序列上面保持元素顺序的同时消除重复的值？" class="headerlink" title="怎样在一个序列上面保持元素顺序的同时消除重复的值？"></a>怎样在一个序列上面保持元素顺序的同时消除重复的值？</h2><p>如果序列上的值都是 hashable 类型，那么可以很简单的利用集合或者生成器来解决这个问题。<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006225021.png" alt="hashable"><br>如果你想消除元素不可哈希（比如 dict 类型）的序列中重复元素的话，你需要将上述代码稍微改变一下<br><img src="https://gitee.com/zhouliang18/pic/raw/master/20211006225055.png" alt="not hashable"></p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.6.0/dist/mindmap.min.css">]]></content>
     
